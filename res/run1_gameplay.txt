@@ -1,0 +1,59 @@
+Welcome to the world: Doctor Lucky's
+Target character: Doctor Lucky (Health: 50)
+Target character starts in: Armory
+Initial world map generated: world_map_initial.png
+
+Enter the space index to move to (0 to 20): 0
+You are already in this space. Please choose another.
+
+Enter the space index to move to (0 to 20): 21
+Invalid space index. Please enter a valid index between 0 and 20
+
+Enter the space index to move to (0 to 20): 11
+Moved to space: Lilac Room
+You took 2 damage. Remaining health: 48
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 9
+Moved to space: Lancaster Room
+You took 3 damage. Remaining health: 45
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 12
+Moved to space: Master Suite
+You took 2 damage. Remaining health: 43
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 3
+Moved to space: Dining Hall
+No damaging items in this space. Current health: 43
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 4
+Moved to space: Drawing Room
+You took 2 damage. Remaining health: 41
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 9
+Moved to space: Lancaster Room
+You took 3 damage. Remaining health: 38
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 11
+Moved to space: Lilac Room
+You took 2 damage. Remaining health: 36
+World map updated: world_map.png
+
+[... similar moves with health decreasing]
+
+Enter the space index to move to (0 to 20): 11
+Moved to space: Lilac Room
+You took 2 damage. Remaining health: 1
+World map updated: world_map.png
+
+Enter the space index to move to (0 to 20): 9
+Moved to space: Lancaster Room
+You took 3 damage. Remaining health: 0
+
+Game Over! Your health dropped to 0.
+Thanks for playing!
