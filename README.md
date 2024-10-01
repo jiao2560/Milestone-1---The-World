@@ -1,5 +1,32 @@
 # Milestone-1---The-World
 
+
+Running the Project via JAR File
+
+JAR File Location: The JAR file for this project, `milestone1.jar`, can be found in the `res/` directory of this repository.
+
+How to Run the JAR File
+
+1. Download the JAR file: First, download the `milestone1.jar` file from the `res/` directory.
+
+2. Ensure Java is installed: Make sure you have Java installed on your machine. You can check this by running the following command:
+   java -version
+
+3. Running the JAR: Open a terminal (or command prompt) and navigate to the folder where you downloaded the `milestone1.jar` file. Then run the following command:
+   java -jar milestone1.jar
+
+4. Input File: The game requires a world specification file to work. The file `mansion.txt` is embedded in the JAR file, so you don’t need to provide it separately. The game will automatically read the embedded file and start the game.
+
+5. User Input: Once the game starts, follow the on-screen prompts to move the target character by entering the space index. The game will generate a graphical representation of the world map after the command " java -jar milestone1.jar" has been executed.
+
+6. Ending the Game: The game continues until the target character's health drops to zero or below, at which point the game will end.
+Running the Project via JAR File
+
+
+
+
+
+
 Doctor Lucky's Mansion - Example Run
 Introduction
 This example run demonstrates the functionality of the game, "Doctor Lucky's Mansion," which simulates the movement of a target character through different spaces in the mansion. The target character starts with a set health and encounters damaging items in certain spaces. This run demonstrates how the game handles moving between spaces, taking damage, updating the world map, and eventually ending the game when the character's health reaches zero.
