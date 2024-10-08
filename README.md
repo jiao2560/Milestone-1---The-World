@@ -127,10 +127,15 @@ Thanks for playing!
 Example Run Demonstration:
 
 World Initialization: The game begins with the world "Doctor Lucky's Mansion" and the target character "Doctor Lucky" starting in the "Armory" space.
+
 Invalid Inputs: The game handles user input errors, such as moving to the current space or providing out-of-bound indices, prompting the user to try again.
+
 Moving Between Spaces: The target character moves between various spaces (e.g., "Lilac Room" and "Lancaster Room"), taking damage if damaging items are present.
+
 Health Tracking: The character's health is consistently tracked and displayed, decreasing as they encounter damaging items.
+
 Game Over Condition: The game demonstrates a proper game-over scenario, ending when the character's health drops to 0.
+
 Graphical World Map: After each move, the world map is updated, showing the new position of the target character and relevant details about neighboring spaces and items. This reflects the game's graphical output during each step.
 
 File Locations
