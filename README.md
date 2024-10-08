@@ -25,6 +25,34 @@ Running the Project via JAR File
 
 
 
+How to Use the JAR File:
+
+Once you have successfully run the milestone1.jar file, follow these instructions to interact with the game:
+
+1. Game Start: The game will load the world configuration from an embedded file (mansion.txt) or an external file (if provided as an argument). It will display information about the target character, the world, and generate the initial world map saved as world_map_initial.png in the same directory.
+
+2. Player Commands:
+After the game starts, you will be prompted to enter the space index where you want the target character to move.
+Example: If you want to move to space 2, type 2 and press enter.
+
+3. Valid Input:
+Enter a valid space index (e.g., 0, 1, 2, etc.) within the bounds of the spaces available. The system will notify you if the index is invalid or if you are already in the selected space. The game will calculate if any items in the new space deal damage to your character, and it will reduce the character's health accordingly.
+
+4. Health and Damage:
+If the target character takes damage from items in the new space, the system will show the total damage taken and the remaining health.
+If there are no damaging items in the space, the system will notify you.
+
+5. Ending the Game:
+The game will continue until your target character’s health drops to zero or below, at which point the game will end.
+The game will generate and save the updated world map as world_map.png after each move.
+
+6. World Map Generation:
+Each time you move to a new space, the world map will be updated and saved as an image (world_map.png), which shows the character’s current position.
+
+
+
+
+
 
 
 Doctor Lucky's Mansion - Example Run
