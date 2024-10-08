@@ -123,6 +123,7 @@ Game Over! Your health dropped to 0.
 Thanks for playing!
 
 Key Features Demonstrated
+
 World Initialization: The game begins with the world "Doctor Lucky's Mansion" and the target character "Doctor Lucky" starting in the "Armory" space.
 Invalid Inputs: The game handles invalid inputs such as moving to the current space or out-of-bound indices.
 Moving Between Spaces: The target character moves between various spaces, such as the "Lilac Room" and "Lancaster Room," taking damage if there are damaging items in the space.
