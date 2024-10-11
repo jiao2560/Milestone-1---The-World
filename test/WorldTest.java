@@ -150,4 +150,61 @@ public class WorldTest {
   public void testGenerateMap() {
     assertNotNull(world.generateMap());
   }
+  @Test
+public void testWorldParsing() {
+  // Simulating file input data
+  String worldInfo = "6 6 Test World";
+  String characterInfo = "100 Hero";
+  String[] spaceInfo = {
+    "0 0 2 2 Room A",
+    "0 3 2 5 Room B",
+    "3 0 5 2 Room C"
+  };
+  String[] itemInfo = {
+    "0 10 Sword",
+    "0 5 Shield"
+  };
+
+  // Parsing world
+  String[] worldParts = worldInfo.split(" ");
+  int rows = Integer.parseInt(worldParts[0]);
+  int cols = Integer.parseInt(worldParts[1]);
+  String worldName = worldParts[2] + " " + worldParts[3];
+
+  // Parsing character
+  String[] characterParts = characterInfo.split(" ");
+  int health = Integer.parseInt(characterParts[0]);
+  String characterName = characterParts[1];
+
+  TargetCharacter character = new TargetCharacter(characterName, health, 0);
+  
+  // Parsing spaces
+  List<ImSpace> spaces = new ArrayList<>();
+  for (String space : spaceInfo) {
+    String[] parts = space.split(" ");
+    int upperLeftRow = Integer.parseInt(parts[0]);
+    int upperLeftCol = Integer.parseInt(parts[1]);
+    int lowerRightRow = Integer.parseInt(parts[2]);
+    int lowerRightCol = Integer.parseInt(parts[3]);
+    String name = parts[4];
+    spaces.add(new Space(name, upperLeftRow, upperLeftCol, lowerRightRow, lowerRightCol));
+  }
+
+  // Parsing items
+  List<ImItem> items = new ArrayList<>();
+  for (String item : itemInfo) {
+    String[] parts = item.split(" ");
+    int spaceIndex = Integer.parseInt(parts[0]);
+    int damage = Integer.parseInt(parts[1]);
+    String name = parts[2];
+    Item parsedItem = new Item(name, damage);
+    spaces.get(spaceIndex).addItem(parsedItem);
+    items.add(parsedItem);
+  }
+
+  // Create world and assert
+  World parsedWorld = new World(rows, cols, worldName, spaces, items, character);
+  assertEquals("Test World", parsedWorld.getName());
+  assertEquals(3, parsedWorld.getNeighbors(spaces.get(0)).size());  // Testing neighbors
+}
 }
