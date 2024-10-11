@@ -283,4 +283,10 @@ public class WorldTest {
   public void testTargetCharacterStartsInRoom0() {
     assertEquals(0, targetCharacter.getCurrentSpace());
   }
+
+  @Test
+  public void testMoveTargetCharacterFromRoom0ToRoom1() {
+    world.moveTargetCharacter();
+    assertEquals(1, targetCharacter.getCurrentSpace());
+  }
 }
