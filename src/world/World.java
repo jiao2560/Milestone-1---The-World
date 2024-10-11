@@ -135,8 +135,15 @@ public class World implements ImWorld {
     }
     info.append("\n");
 
+    // Add target character info if they are in the space
+    if (targetCharacter.getCurrentSpace() == spaces.indexOf(space)) {
+      info.append("Target character present: ").append(targetCharacter.getName())
+          .append(" (Health: ").append(targetCharacter.getHealth()).append(")\n");
+    }
+
     return info.toString();
   }
+
 
 
 
