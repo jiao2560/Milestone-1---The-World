@@ -265,4 +265,17 @@ public class WorldTest {
     assertEquals(2, world.getSpaces().size());
     assertEquals(2, world.getSpaces().get(0).getItems().size());
   }
+
+  @Test
+  public void testInvalidWorldDescription() {
+    // Define an invalid file path or malformed world specification
+    String invalidFilePath = "invalid_world_spec.txt";
+
+    // Expect an exception when trying to parse an invalid world description
+    assertThrows(IOException.class, () -> {
+      BufferedReader reader = new BufferedReader(new FileReader(invalidFilePath));
+      // Parsing logic here, but we expect an IOException or custom error handling
+      World world = GameDriver.parseWorldFromFile(reader);  // Assuming you extract parsing logic
+    });
+  }
 }
