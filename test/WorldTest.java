@@ -278,4 +278,9 @@ public class WorldTest {
       World world = GameDriver.parseWorldFromFile(reader);  // Assuming you extract parsing logic
     });
   }
+
+  @Test
+  public void testTargetCharacterStartsInRoom0() {
+    assertEquals(0, targetCharacter.getCurrentSpace());
+  }
 }
