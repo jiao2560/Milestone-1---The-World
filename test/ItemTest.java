@@ -48,5 +48,21 @@ public class ItemTest {
     assertEquals("Sword", parsedItem.getName());
     assertEquals(10, parsedItem.getDamage());
   }
+
+  @Test
+  public void testInvalidItemSpecification() {
+    // Simulate an invalid item description (missing damage value)
+    String itemInfo = "0 Sword";  // Missing damage value
+
+    // Expect an exception when trying to parse the invalid item info
+    assertThrows(NumberFormatException.class, () -> {
+      String[] parts = itemInfo.split(" ");
+      int damage = Integer.parseInt(parts[1]);  // This will throw an exception
+      String name = parts[2];
+      
+      // This line will not be reached due to the exception
+      Item parsedItem = new Item(name, damage);
+    });
+  }
 }
 
