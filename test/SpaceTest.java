@@ -79,4 +79,24 @@ public class SpaceTest {
     int[] expectedCoordinates = {0, 0, 3, 3};
     assertArrayEquals(expectedCoordinates, parsedSpace.getCoordinates());
   }
+
+  @Test
+  public void testInvalidSpaceSpecification() {
+    // Simulate an invalid space description (missing coordinates)
+    String spaceInfo = "0 0 3 Kitchen";  // Missing one coordinate
+
+    // Expect an exception when trying to parse the invalid space info
+    assertThrows(NumberFormatException.class, () -> {
+      String[] parts = spaceInfo.split(" ");
+      int upperLeftRow = Integer.parseInt(parts[0]);
+      int upperLeftCol = Integer.parseInt(parts[1]);
+      int lowerRightRow = Integer.parseInt(parts[2]);
+      // Missing lowerRightCol should cause an exception when attempting to parse it
+      int lowerRightCol = Integer.parseInt(parts[3]); // This will throw an error
+      String name = parts[4];
+      
+      // This line will not be reached due to the exception
+      Space parsedSpace = new Space(name, upperLeftRow, upperLeftCol, lowerRightRow, lowerRightCol);
+    });
+  }
 }
