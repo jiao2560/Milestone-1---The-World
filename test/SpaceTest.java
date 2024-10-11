@@ -63,4 +63,20 @@ public class SpaceTest {
     assertTrue(items.contains(item1));
     assertTrue(items.contains(item2));
   }
+
+  @Test
+  public void testSpaceParsing() {
+    String spaceInfo = "0 0 3 3 Kitchen";  // Simulating space info from a file
+    String[] parts = spaceInfo.split(" ");
+    int upperLeftRow = Integer.parseInt(parts[0]);
+    int upperLeftCol = Integer.parseInt(parts[1]);
+    int lowerRightRow = Integer.parseInt(parts[2]);
+    int lowerRightCol = Integer.parseInt(parts[3]);
+    String name = parts[4];
+    
+    Space parsedSpace = new Space(name, upperLeftRow, upperLeftCol, lowerRightRow, lowerRightCol);
+    assertEquals("Kitchen", parsedSpace.getName());
+    int[] expectedCoordinates = {0, 0, 3, 3};
+    assertArrayEquals(expectedCoordinates, parsedSpace.getCoordinates());
+  }
 }
