@@ -208,4 +208,61 @@ public class WorldTest {
     assertEquals("Test World", parsedWorld.getName());
     assertEquals(3, parsedWorld.getNeighbors(spaces.get(0)).size());  // Testing neighbors
   }
+
+  @Test
+    public void testReadWorldFromFile() throws IOException {
+        // Read the world specification from a file
+        BufferedReader reader = new BufferedReader(new FileReader("test_world_spec.txt"));
+
+        // Parse world info
+        String[] worldInfo = reader.readLine().split(" ");
+        int rows = Integer.parseInt(worldInfo[0]);
+        int cols = Integer.parseInt(worldInfo[1]);
+        String worldName = worldInfo[2] + " " + worldInfo[3];
+
+        // Parse character info
+        String[] characterInfo = reader.readLine().split(" ");
+        int characterHealth = Integer.parseInt(characterInfo[0]);
+        String characterName = characterInfo[1] + " " + characterInfo[2];
+
+        // Parse spaces
+        int numberOfSpaces = Integer.parseInt(reader.readLine());
+        List<ImSpace> spaces = new ArrayList<>();
+        for (int i = 0; i < numberOfSpaces; i++) {
+            String[] spaceInfo = reader.readLine().split(" ");
+            int upperLeftRow = Integer.parseInt(spaceInfo[0]);
+            int upperLeftCol = Integer.parseInt(spaceInfo[1]);
+            int lowerRightRow = Integer.parseInt(spaceInfo[2]);
+            int lowerRightCol = Integer.parseInt(spaceInfo[3]);
+            String spaceName = spaceInfo[4];
+            spaces.add(new Space(spaceName, upperLeftRow, upperLeftCol, lowerRightRow, lowerRightCol));
+        }
+
+        // Parse items
+        int numberOfItems = Integer.parseInt(reader.readLine());
+        List<ImItem> items = new ArrayList<>();
+        for (int i = 0; i < numberOfItems; i++) {
+            String[] itemInfo = reader.readLine().split(" ");
+            int spaceIndex = Integer.parseInt(itemInfo[0]);
+            int itemDamage = Integer.parseInt(itemInfo[1]);
+            String itemName = itemInfo[2];
+            Item item = new Item(itemName, itemDamage);
+            spaces.get(spaceIndex).addItem(item);
+            items.add(item);
+        }
+
+        // Create target character
+        TargetCharacter targetCharacter = new TargetCharacter(characterName, characterHealth, 0);
+
+        // Create world
+        world = new World(rows, cols, worldName, spaces, items, targetCharacter);
+
+        reader.close();
+
+        // Verify world was created correctly
+        assertNotNull(world);
+        assertEquals("Sample World", world.getName());
+        assertEquals(2, world.getSpaces().size());
+        assertEquals(2, world.getSpaces().get(0).getItems().size());
+    }
 }
