@@ -36,5 +36,17 @@ public class ItemTest {
   public void testGetDamage() {
     assertEquals(10, item.getDamage());
   }
+
+  @Test
+  public void testItemParsing() {
+    String itemInfo = "0 10 Sword";  // Simulating item info from a file
+    String[] parts = itemInfo.split(" ");
+    int damage = Integer.parseInt(parts[1]);
+    String name = parts[2];
+    
+    Item parsedItem = new Item(name, damage);
+    assertEquals("Sword", parsedItem.getName());
+    assertEquals(10, parsedItem.getDamage());
+  }
 }
 
