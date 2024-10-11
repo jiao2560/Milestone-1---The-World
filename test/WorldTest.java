@@ -289,4 +289,16 @@ public class WorldTest {
     world.moveTargetCharacter();
     assertEquals(1, targetCharacter.getCurrentSpace());
   }
+
+  @Test
+  public void testMoveTargetCharacterEndToStart() {
+    // Move character to the last room
+    for (int i = 0; i < spaces.size(); i++) {
+        world.moveTargetCharacter();
+    }
+    // Now, move from the last room back to room 0
+    targetCharacter.moveToSpace(0);
+    assertEquals(0, targetCharacter.getCurrentSpace());
+  }
+
 }
