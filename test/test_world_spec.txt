@@ -1,0 +1,8 @@
+5 5 Sample World
+100 Doctor Lucky
+2
+0 0 2 2 Armory
+0 3 2 5 Library
+2
+0 15 Sword
+1 10 Shield
