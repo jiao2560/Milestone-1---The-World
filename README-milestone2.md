@@ -174,6 +174,37 @@ Items here: None
 Neighboring spaces: Dining Hall Parlor Wine Cellar 
 Game Over! Thanks for playing!
 
+Key Features Demonstrated
+
+This example run demonstrates the following Milestone 2 requirements:
+
+1. Adding Players  
+   - A human-controlled player and an AI-controlled player are added to the game.
+
+2. Player Movement  
+   - The player moves between spaces, such as from the **Armory** to the **Drawing Room**.
+
+3. Item Pickup  
+   - The player picks up items like the **Revolver**, and the AI picks up a **Sharp Knife**.
+
+4. Looking Around  
+   - The player looks around the **Armory**, seeing items and neighboring spaces.
+
+5. Displaying Player Description  
+   - The player's current status, including their name, current space, and carried items, is displayed.
+
+6. Turn-Based Gameplay 
+   - The game alternates turns between the human and AI players, with clear feedback after each command.
+
+7. Displaying Space Information  
+   - Information about the player’s current space, such as items and neighbors, is provided.
+
+8. Graphical Map Generation  
+   - The initial and updated world maps are saved as `world_map_initial.png` and `world_map.png` respectively.
+
+9. Game End Condition 
+   - The game continues until the maximum number of turns is reached or a player’s health drops to zero.
+
 File Locations
 - JAR File: `res/milestone2.jar`
 - Initial World Map: `res/world_map_initial.png`
