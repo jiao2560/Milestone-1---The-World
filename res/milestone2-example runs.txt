@@ -1,0 +1,127 @@
+Initial world map saved as 'world_map_initial.png'.
+Turn 0: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+4
+Player: Player1
+Current space: Armory
+Carrying: No items
+Turn 1: AI's turn.
+AI (AI) is thinking...
+AI moved to Dining Hall
+Turn 2: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+3
+Looking around from space: Armory
+Items here: 
+ - Revolver (Damage: 3)
+Neighboring spaces: Billiard Room Dining Hall Drawing Room 
+Turn 3: AI's turn.
+AI (AI) is thinking...
+AI moved to Kitchen
+Turn 4: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+2
+Select an item to pick up:
+0: Revolver
+0
+Player1 picked up Revolver
+Turn 5: AI's turn.
+AI (AI) is thinking...
+AI picked up Sharp Knife
+Turn 6: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+4
+Player: Player1
+Current space: Armory
+Carrying:
+ - Revolver (Damage: 3)
+Turn 7: AI's turn.
+AI (AI) is thinking...
+AI picked up Crepe Pan
+Turn 8: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+3
+Looking around from space: Armory
+Items here: None
+Neighboring spaces: Billiard Room Dining Hall Drawing Room 
+Turn 9: AI's turn.
+AI (AI) is thinking...
+AI looks around.
+Looking around from space: Kitchen
+Items here: None
+Neighboring spaces: Dining Hall Parlor Wine Cellar 
+Turn 10: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+1
+Player1 moved to Drawing Room
+Turn 11: AI's turn.
+AI (AI) is thinking...
+Turn 12: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+1
+Player1 moved to Dining Hall
+Turn 13: AI's turn.
+AI (AI) is thinking...
+Turn 14: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+1
+Player1 moved to Armory
+Turn 15: AI's turn.
+AI (AI) is thinking...
+Turn 16: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+1
+Player1 moved to Drawing Room
+Turn 17: AI's turn.
+AI (AI) is thinking...
+Turn 18: Player1's turn.
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+1
+Player1 moved to Dining Hall
+Turn 19: AI's turn.
+AI (AI) is thinking...
+AI looks around.
+Looking around from space: Kitchen
+Items here: None
+Neighboring spaces: Dining Hall Parlor Wine Cellar 
+Game Over! Thanks for playing!
