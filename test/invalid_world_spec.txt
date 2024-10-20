@@ -1,0 +1,4 @@
+5 5 Sample World
+100 Doctor Lucky
+2
+0 0 2
