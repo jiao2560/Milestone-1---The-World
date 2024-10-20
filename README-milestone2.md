@@ -174,3 +174,13 @@ Items here: None
 Neighboring spaces: Dining Hall Parlor Wine Cellar 
 Game Over! Thanks for playing!
 
+File Locations
+- JAR File: `res/milestone2.jar`
+- Initial World Map: `res/world_map_initial.png`
+- Example Run Log: `res/milestone2-example runs.txt`
+
+
+End of Milestone 2
+This milestone builds on the previous one by introducing additional mechanics such as player item management, AI decision-making, and enhanced world interactions.
+Enjoy playing **Doctor Lucky's Mansion** and exploring the expanded game mechanics introduced in this milestone!
+
