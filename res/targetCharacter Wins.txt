@@ -1,0 +1,272 @@
+Player1 moved to Armory
+AI moved to Billiard Room
+Initial world map saved as 'world_map_initial.png'.
+Turn 0: Player1's turn in space Armory
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Armory
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+1
+Select a neighboring space to move to:
+0: Billiard Room
+1: Dining Hall
+2: Drawing Room
+1
+Player1 moved to Dining Hall
+Doctor Lucky is currently in Armory with current health: 10
+Doctor Lucky feels threatened and tries to escape!
+Doctor Lucky escapes to Billiard Room with current health: 10
+Turn 1: AI's turn in space Billiard Room
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+AI attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 9
+Turn 2: Player1's turn in space Dining Hall
+Doctor Lucky's current health: 9
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+3
+Neighboring spaces:
+ - Armory: [Blocked by pet]
+ - Billiard Room
+   - Players: []
+   - Items: [Billiard Cue (Damage: 2)]
+ - Drawing Room
+   - Players: []
+   - Items: [Letter Opener (Damage: 2)]
+ - Kitchen
+   - Players: []
+   - Items: [Crepe Pan (Damage: 3), Sharp Knife (Damage: 3)]
+ - Parlor
+   - Players: []
+   - Items: []
+ - Tennessee Room
+   - Players: []
+   - Items: []
+ - Trophy Room
+   - Players: []
+   - Items: [Duck Decoy (Damage: 3), Monkey Hand (Damage: 2)]
+ - Wine Cellar
+   - Players: []
+   - Items: [Rat Poison (Damage: 2), Piece of Rope (Damage: 2)]
+Turn 3: AI's turn in space Billiard Room
+Doctor Lucky's current health: 9
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+AI attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 8
+Turn 4: Player1's turn in space Dining Hall
+Doctor Lucky's current health: 8
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+6
+Select a space to move the pet to:
+0: Billiard Room
+1: Dining Hall
+2: Drawing Room
+0
+Doctor Lucky attacked but still alive with health: 8
+Turn 5: AI's turn in space Billiard Room
+Doctor Lucky's current health: 8
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+AI attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 7
+Turn 6: Player1's turn in space Dining Hall
+Doctor Lucky's current health: 7
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+3
+Neighboring spaces:
+ - Armory
+   - Players: []
+   - Items: [Revolver (Damage: 3)]
+ - Billiard Room: [Blocked by pet]
+ - Drawing Room
+   - Players: []
+   - Items: [Letter Opener (Damage: 2)]
+ - Kitchen
+   - Players: []
+   - Items: [Crepe Pan (Damage: 3), Sharp Knife (Damage: 3)]
+ - Parlor
+   - Players: []
+   - Items: []
+ - Tennessee Room
+   - Players: []
+   - Items: []
+ - Trophy Room
+   - Players: []
+   - Items: [Duck Decoy (Damage: 3), Monkey Hand (Damage: 2)]
+ - Wine Cellar
+   - Players: []
+   - Items: [Rat Poison (Damage: 2), Piece of Rope (Damage: 2)]
+Turn 7: AI's turn in space Billiard Room
+Doctor Lucky's current health: 7
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+AI attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 6
+Turn 8: Player1's turn in space Dining Hall
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+1
+Select a neighboring space to move to:
+0: Armory
+1: Billiard Room
+2: Drawing Room
+3: Kitchen
+4: Parlor
+5: Tennessee Room
+6: Trophy Room
+7: Wine Cellar
+1
+Player1 moved to Billiard Room
+Turn 9: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Turn 10: Player1's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+4
+Player: Player1
+Current space: Billiard Room
+Carrying: No items
+Turn 11: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Turn 12: Player1's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Attack was seen by another player. Attack stopped!
+Turn 13: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Turn 14: Player1's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+4
+Player: Player1
+Current space: Billiard Room
+Carrying: No items
+Turn 15: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Turn 16: Player1's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+3
+Neighboring spaces:
+ - Armory
+   - Players: []
+   - Items: [Revolver (Damage: 3)]
+ - Dining Hall
+   - Players: []
+   - Items: []
+ - Trophy Room
+   - Players: []
+   - Items: [Duck Decoy (Damage: 3), Monkey Hand (Damage: 2)]
+Turn 17: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Turn 18: Player1's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+2
+Select an item to pick up:
+0: Billiard Cue
+0
+Player1 picked up Billiard Cue
+Turn 19: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Billiard Room
+AI (AI) is thinking...
+AI attempts to attack Doctor Lucky!
+Attack was seen by another player. Attack stopped!
+Maximum turns reached. Game over! The target character escaped.
+Game Over! Thanks for playing!

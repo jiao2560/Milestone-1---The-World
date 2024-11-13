@@ -1,0 +1,181 @@
+Player1 moved to Armory
+AI moved to Billiard Room
+Initial world map saved as 'world_map_initial.png'.
+Turn 0: Player1's turn in space Armory
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Armory
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+2
+Select an item to pick up:
+0: Revolver
+0
+Player1 picked up Revolver
+Doctor Lucky is currently in Armory with current health: 10
+Doctor Lucky feels threatened and tries to escape!
+Doctor Lucky escapes to Drawing Room with current health: 10
+Turn 1: AI's turn in space Billiard Room
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+AI picked up Billiard Cue
+Turn 2: Player1's turn in space Armory
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+1
+Select a neighboring space to move to:
+0: Billiard Room
+1: Dining Hall
+2: Drawing Room
+2
+Player1 moved to Drawing Room
+Turn 3: AI's turn in space Billiard Room
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 4: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 10
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 used Revolver to attack Doctor Lucky, dealing 3 damage!
+Doctor Lucky's health is now 7
+Turn 5: AI's turn in space Billiard Room
+Doctor Lucky's current health: 7
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 6: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 7
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 6
+Turn 7: AI's turn in space Billiard Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 8: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 6
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 5
+Turn 9: AI's turn in space Billiard Room
+Doctor Lucky's current health: 5
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 10: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 5
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 4
+Turn 11: AI's turn in space Billiard Room
+Doctor Lucky's current health: 4
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 12: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 4
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 3
+Turn 13: AI's turn in space Billiard Room
+Doctor Lucky's current health: 3
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 14: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 3
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 2
+Turn 15: AI's turn in space Billiard Room
+Doctor Lucky's current health: 2
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 16: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 2
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 1
+Turn 17: AI's turn in space Billiard Room
+Doctor Lucky's current health: 1
+Doctor Lucky is currently in room: Drawing Room
+AI (AI) is thinking...
+Turn 18: Player1's turn in space Drawing Room
+Doctor Lucky's current health: 1
+Doctor Lucky is currently in room: Drawing Room
+It's your turn, Player1. Choose an action:
+1. Move to a neighboring space
+2. Pick up an item
+3. Look around
+4. Display player description
+5. Attempt to attack target character
+6. Move the target character's pet
+5
+Player1 attempts to poke Doctor Lucky, dealing 1 damage.
+Doctor Lucky's health is now 0
+Player1 wins! Doctor Lucky has been killed by the human player. Game over!
+Game Over! Thanks for playing!
