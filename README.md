@@ -264,3 +264,87 @@ Graphical World Map: After each move, the world map is updated, showing the new 
 File Locations
 Example Run File: The full example run is provided in res/run1_gameplay.txt.
 World Map Images: The initial and updated world maps are saved as world_map_initial.png and world_map.png after each move.
+
+
+Here's an updated README for Milestone 3, incorporating all requirements and example runs.
+
+---
+
+# Milestone-3: Doctor Lucky's Mansion Gameplay
+
+## Running the Project via JAR File
+
+### JAR File Location
+The JAR file for this project, `milestone3.jar`, can be found in the `res/` directory of this repository. The required `.txt` file for the world configuration is included within the JAR, so no additional setup is needed.
+
+### How to Run the JAR File
+
+1. **Download the JAR file**: Download `milestone3.jar` from the `res/` directory.
+2. **Ensure Java is installed**: Check that Java is installed by running:
+   ```bash
+   java -version
+   ```
+3. **Running the JAR**: Open a terminal, navigate to the directory with the JAR file, and execute:
+   ```bash
+   java -jar milestone3.jar
+   ```
+4. **World Initialization**: Upon execution, the game reads the embedded `.txt` file to set up the mansion world and initializes Doctor Lucky's starting location, health, and pet.
+
+### Gameplay Overview
+The goal of the game is to be the first player to successfully kill Doctor Lucky. Both human and AI players can attempt to do this under specific conditions, as outlined below.
+
+## Player Commands
+Once the game starts, players can interact with it through the following commands:
+
+1. **Move to a neighboring space**: Allows players to move between connected rooms.
+2. **Pick up an item**: Collect items to increase attack effectiveness.
+3. **Look around**: Observe the current space, seeing nearby rooms and occupants/items within line of sight, excluding rooms obscured by Doctor Lucky's pet.
+4. **Display player description**: Shows player details, including items held.
+5. **Attempt to attack target character**: Make an attempt on Doctor Lucky's life if conditions are met.
+6. **Move the target character's pet**: Position the pet to strategically block visibility.
+
+## Example Gameplay Scenarios
+Below are examples of key scenarios within gameplay, each demonstrating various functionalities:
+
+### 1. **Computer Player Winning**
+   - The AI successfully kills Doctor Lucky by inflicting damage over several turns while remaining unseen by other players.
+
+### 2. **Human Player Winning**
+   - The human player, equipped with items, strategically avoids detection and kills Doctor Lucky.
+
+### 3. **Target Character Escaping**
+   - If Doctor Lucky survives until the maximum number of turns is reached, he escapes, ending the game with no winner.
+
+### 4. **Pet Blocking Visibility**
+   - Doctor Lucky’s pet is moved by a player, preventing other players from seeing into certain rooms, enabling unseen actions.
+
+## Example Runs
+Example text files showcasing various game endings and interactions are available in the `res/` directory:
+
+- `computer_player_wins.txt`: Demonstrates AI winning by killing Doctor Lucky.
+- `human_player_wins.txt`: Shows a human player successfully killing Doctor Lucky.
+- `targetCharacter_escapes.txt`: Doctor Lucky escapes after the maximum number of turns.
+- Each file documents the sequence of commands and results, highlighting the pet’s role, attacks, item usage, and visibility mechanics.
+
+## World Map Generation
+A map (`world_map.png`) showing the characters' positions is updated with each move and saved in the directory. The initial map, `world_map_initial.png`, is created when the game starts.
+
+## Game Rules Recap
+
+1. **Visibility**: An attack is only successful if no other player can see it.
+2. **Attempting Attacks**:
+   - Players without items "poke" Doctor Lucky, causing minor damage.
+   - Players with items use them to cause higher damage but lose the item upon use.
+3. **Ending Conditions**:
+   - A player kills Doctor Lucky to win.
+   - Doctor Lucky escapes if he survives the maximum turns.
+   - The pet can be strategically moved by players to block visibility of certain rooms.
+
+## Documentation
+
+This project follows Javadoc standards:
+- Each class and interface has a clear, descriptive comment.
+- Public methods have detailed comments on purpose, parameters, return values, and side effects.
+
+## How to Use the JAR File
+Simply download and execute the file as explained above to start the game and follow the prompts.
