@@ -346,6 +346,7 @@ This project follows Javadoc standards:
 - Each class and interface has a clear, descriptive comment.
 - Public methods have detailed comments on purpose, parameters, return values, and side effects.
 
+Milestone-4---The-World
 ## How to Use the JAR File
 Simply download and execute the file as explained above to start the game and follow the prompts.
 
