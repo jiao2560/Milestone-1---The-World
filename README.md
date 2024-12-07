@@ -364,3 +364,22 @@ java -jar milestone4.jar
 World Initialization: Upon execution, the game reads the embedded .txt file to set up the mansion world and initializes Doctor Lucky's starting location, health, and pet.
 Gameplay Overview
 The goal of the game is to be the first player to successfully kill Doctor Lucky. Both human and AI players can attempt to do this under specific conditions, as outlined below.
+
+How to Use the JAR File:
+
+Once you have successfully run the milestone1.jar file, follow these instructions to interact with the game:
+1. After running the jar, you will see a welcome screen saying welcome to doctor lucky's mansion! the game was created by leo.
+
+2. There are two buttons below. If you click start game, the system will use default mansion.txt by default. If you click upload world, you need to upload a .txt file to generate a custom world.
+
+3. After entering the start game interface (you can zoom in or out in the upper right corner, or control the interface by scrolling the wheel), you will see the map and the positions of human players, doctors, and computer players.
+
+4. If you use the L key on the keyboard, a window will pop up on the screen to show the neighbors of the current player's room. This is the LookAround function.
+
+5. If you use the P key on the keyboard, a window will pop up on the screen to show the list of weapons you can pick up or to show that there are no weapons in this room. When you pick up a weapon, the right screen will record it, such as "Picked up: 3 Crepe Pan".
+
+6. When you use the A key on the keyboard, your character will attack the doctor, and the attack result will be shown on the right screen. Note that you must be in the same room with the doctor to attack, otherwise a window will pop up on the screen to remind you that you do not have the right to attack.
+
+7. When you click on the character portrait, you can see the character information including weapons, location and name.
+
+8. You can end the game at any time by pressing the x button in the upper right corner.
