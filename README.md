@@ -348,3 +348,18 @@ This project follows Javadoc standards:
 
 ## How to Use the JAR File
 Simply download and execute the file as explained above to start the game and follow the prompts.
+
+Milestone-4: Doctor Lucky's Mansion Gameplay
+Running the Project via JAR File
+JAR File Location
+The JAR file for this project, milestone4.jar, can be found in the res/ directory of this repository. The required .txt file for the world configuration is included within the JAR, so no additional setup is needed.
+
+How to Run the JAR File
+Download the JAR file: Download milestone4.jar from the res/ directory.
+Ensure Java is installed: Check that Java is installed by running:
+java -version
+Running the JAR: Open a terminal, navigate to the directory with the JAR file, and execute:
+java -jar milestone4.jar
+World Initialization: Upon execution, the game reads the embedded .txt file to set up the mansion world and initializes Doctor Lucky's starting location, health, and pet.
+Gameplay Overview
+The goal of the game is to be the first player to successfully kill Doctor Lucky. Both human and AI players can attempt to do this under specific conditions, as outlined below.
