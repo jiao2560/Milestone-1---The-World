@@ -36,7 +36,7 @@ Once you have successfully run the milestone1.jar file, follow these instruction
 
 8. You can end the game at any time by pressing the x button in the upper right corner.
 
-Ah, I see what you mean now! You’re asking for a description of what the example run demonstrates in terms of functionality. Here's a more concise and focused explanation for your `README.md`:
+
 
 ---
 
