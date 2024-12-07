@@ -383,3 +383,33 @@ Once you have successfully run the milestone1.jar file, follow these instruction
 7. When you click on the character portrait, you can see the character information including weapons, location and name.
 
 8. You can end the game at any time by pressing the x button in the upper right corner.
+
+Ah, I see what you mean now! You’re asking for a description of what the example run demonstrates in terms of functionality. Here's a more concise and focused explanation for your `README.md`:
+
+---
+
+This example run demonstrates the following core functionality of the game:
+
+1. **Game Initialization**:
+   - When the program is run, it displays a welcome screen with a message: "Welcome to Doctor Lucky's Mansion! The game was created by Leo."
+
+2. **Game Setup Options**:
+   - The user is presented with two buttons:
+     - **Start Game**: Starts the game with the default `mansion.txt` file.
+     - **Upload World**: Allows the user to upload a custom `.txt` file to create a personalized game world.
+
+3. **Game Interface**:
+   - Upon starting the game, the map of the mansion is displayed. Users can zoom in/out using the controls in the top right or scroll using the mouse wheel. 
+   - The map shows the positions of human players, Doctor Lucky, and computer players.
+
+4. **Look Around (L Key)**:
+   - Pressing the **L key** displays a window showing the neighboring rooms of the current player's location.
+
+5. **Pick Up Weapons (P Key)**:
+   - Pressing the **P key** opens a window that lists weapons available for pickup in the current room, or informs the player if there are no weapons in the room. When a weapon is picked up, it is recorded on the right side of the screen (e.g., "Picked up: 3 Crepe Pan").
+
+6. **Attack Doctor (A Key)**:
+   - Pressing the **A key** triggers an attack on Doctor Lucky. If the player is not in the same room as Doctor Lucky, an error window pops up. Otherwise, the attack result is displayed on the screen.
+
+---
+
