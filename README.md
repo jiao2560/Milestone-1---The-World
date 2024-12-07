@@ -350,8 +350,8 @@ Milestone-4---The-World
 ## How to Use the JAR File
 Simply download and execute the file as explained above to start the game and follow the prompts.
 
-Milestone-4: Doctor Lucky's Mansion Gameplay
-Running the Project via JAR File
+
+Milestone-4: Doctor Lucky's Mansion Gameplay Running the Project via JAR File
 JAR File Location
 The JAR file for this project, milestone4.jar, can be found in the res/ directory of this repository. The required .txt file for the world configuration is included within the JAR, so no additional setup is needed.
 
