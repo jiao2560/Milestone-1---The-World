@@ -40,28 +40,34 @@ Once you have successfully run the milestone1.jar file, follow these instruction
 
 ---
 
-This example run demonstrates the following core functionality of the game:
 
-1. **Game Initialization**:
-   - When the program is run, it displays a welcome screen with a message: "Welcome to Doctor Lucky's Mansion! The game was created by Leo."
+---
 
-2. **Game Setup Options**:
-   - The user is presented with two buttons:
-     - **Start Game**: Starts the game with the default `mansion.txt` file.
-     - **Upload World**: Allows the user to upload a custom `.txt` file to create a personalized game world.
+## What the Example Run Demonstrates
 
-3. **Game Interface**:
-   - Upon starting the game, the map of the mansion is displayed. Users can zoom in/out using the controls in the top right or scroll using the mouse wheel. 
-   - The map shows the positions of human players, Doctor Lucky, and computer players.
+This example run demonstrates the following functionality as per the project requirements:
 
-4. **Look Around (L Key)**:
-   - Pressing the **L key** displays a window showing the neighboring rooms of the current player's location.
+1. **Welcome Screen (Requirement 1)**:
+   - Upon launching the game, a welcome screen is displayed with a message: "Welcome to Doctor Lucky's Mansion! The game was created by Leo." This is the initial graphical user interface that users see when starting the game.
 
-5. **Pick Up Weapons (P Key)**:
-   - Pressing the **P key** opens a window that lists weapons available for pickup in the current room, or informs the player if there are no weapons in the room. When a weapon is picked up, it is recorded on the right side of the screen (e.g., "Picked up: 3 Crepe Pan").
+2. **Start Game and Upload World (Requirement 2)**:
+   - The main menu provides two options: 
+     - **Start Game** uses the default `mansion.txt` file to generate the world.
+     - **Upload World** allows users to upload a custom `.txt` file to create a personalized game world. This demonstrates the ability to handle both default and custom game worlds through file input.
 
-6. **Attack Doctor (A Key)**:
-   - Pressing the **A key** triggers an attack on Doctor Lucky. If the player is not in the same room as Doctor Lucky, an error window pops up. Otherwise, the attack result is displayed on the screen.
+3. **Interactive Game Map (Requirement 3)**:
+   - After starting the game, players see a map of the mansion, displaying the positions of human players, Doctor Lucky, and computer players. Users can zoom in and out using interface controls or scroll using the mouse wheel. This fulfills the requirement for an interactive map of the game world.
+
+4. **Look Around Feature (Requirement 4)**:
+   - Pressing the **L key** triggers the "Look Around" function, which opens a window showing the neighboring rooms of the current player's room. This allows players to explore the layout of the mansion.
+
+5. **Pick Up Weapon Feature (Requirement 5)**:
+   - Pressing the **P key** displays a window listing available weapons in the current room. If there are no weapons, the message will indicate that. When a player picks up a weapon, the right screen updates with a message like "Picked up: 3 Crepe Pan," demonstrating the functionality for item collection.
+
+6. **Attack Feature (Requirement 6)**:
+   - Pressing the **A key** allows the player to attack Doctor Lucky. If the player is in the same room as Doctor Lucky, the attack result is shown on the right screen. If the player is not in the same room, a message appears notifying the user that the attack cannot be made.
+
+--
 
 ---
 
